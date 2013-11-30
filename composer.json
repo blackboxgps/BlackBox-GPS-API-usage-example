@@ -1,0 +1,24 @@
+{
+    "name": "blackboxgps/api_usage_example",
+    "description": "BlackBox GPS API usage example. Based on the PHP 5.3+ oAuth 1/2 Client Library by David Desberg (https://github.com/Lusitanian)",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Federico Ferreri",
+            "email": "fferreri@blackboxgps.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/http-foundation": "~2.1",
+        "lusitanian/oauth": "~0.2"
+    },
+    "suggest": {
+        "symfony/http-foundation": "Allows using the Symfony Session storage backend."
+    },
+    "autoload": {
+        "psr-0": {
+            "OAuth": "src"
+        }
+    }
+}
