@@ -24,7 +24,7 @@ Requirements
 ------------
 
 * PHP 5.3+
-* Your own BlackBox GPS API Client (see http://services.blackboxgps.com)
+* Your own BlackBox GPS API Client ID and Secret (see http://services.blackboxgps.com)
 * A valid BlackBox GPS username & password
 
 Thanks to
